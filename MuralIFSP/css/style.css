@@ -1,0 +1,81 @@
+/* CSS Document */
+
+body{
+	background:url(../img/background.jpg);
+}
+
+#principal{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+#principal3{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	padding-top:50px;
+}
+
+#indexBox1{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	min-height:600px;
+	background-color:#666;
+}
+
+
+p{
+	color:#999;
+}
+
+#painel{
+	background-color:#6F3;
+	min-height:300px;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;	
+	overflow:hidden;
+	position:relative;
+}
+
+#painel2{
+	background-color:#6F3;
+	min-height:300px;
+	width:90%;
+	margin-top:500px;
+	margin-left: auto;
+	margin-right: auto;	
+	overflow:hidden;
+	position:relative;
+}
+
+.nota{
+	background-color:#FF6;
+	min-height:160px;
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align:center;
+	padding-top:20px;
+	margin-top:10px;
+}
+
+.indexPrimeiro{
+	background-color:#FF6;
+	min-height:160px;
+	width:80%;
+	min-height:550px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align:center;
+	margin-top:10px;
+}
+
+#desc{
+	color:#FFF;
+}

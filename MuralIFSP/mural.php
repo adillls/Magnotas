@@ -20,11 +20,11 @@
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="mural.php">Mural</a></li>
-                    <li><a href="#">Page 2</a></li>
+                    <!--<li><a href="cadastroNota.php">Criar uma Nota</a></li>-->
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="cadastro.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="cadastro.php"><span class="glyphicon glyphicon-user"></span> Cadastrar-se</a></li>
+                    <!--<li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
                 </ul>
             </div>
         </nav>
@@ -81,131 +81,9 @@
                     </p>
                 </div>            
             </div>
-            <div class="row">
-                <div class="col-md-3">
-               		<p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-    
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>            
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-               		<p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-    
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>            
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-               		<p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-    
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>            
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-               		<p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-    
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>            
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-               		<p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-    
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>
-                
-                <div class="col-md-3">
-                    <p align="justify" class="nota">
-                    	CARONA IFSP-SHOPPING 12:10!<br />(14)98113-5119
-                    </p>
-                </div>            
-            </div>
+            
+            
+            
 		</div>
 </body>
 </html>

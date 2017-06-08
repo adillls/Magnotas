@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body{
-	background:url(../img/background.jpg);
+	background:url(../img/back.jpg);
 }
 
 #principal{
@@ -10,12 +10,12 @@ body{
 	margin-right: auto;
 	width:100%;
 }
-
 #principal3{
 	text-align:center;
 	margin-left: auto;
 	margin-right: auto;
 	width:100%;
+	min-height:160px;
 	padding-top:50px;
 }
 
@@ -24,8 +24,25 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	width:80%;
-	min-height:600px;
-	background-color:#666;
+	min-height:180px;
+	/*background-color:#3C0;*/
+}
+
+#carrousel{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	min-height:760px;
+}
+
+#indexBox2{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+	min-height:160px;
+	background-image:url(../img/papel.jpg);
 }
 
 
@@ -65,7 +82,27 @@ p{
 	margin-top:10px;
 }
 
-.indexPrimeiro{
+#indexLogin{
+	min-height:500px;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align:center;
+	margin-top:10px;
+	background-image:url(../img/papel.jpg);
+}
+
+#indexLogin2{
+	min-height:500px;
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align:center;
+	margin-top:10px;
+	background-image:url(../img/papel2.jpg);
+}
+
+.indexSegundo{
 	background-color:#FF6;
 	min-height:160px;
 	width:80%;
@@ -78,4 +115,13 @@ p{
 
 #desc{
 	color:#FFF;
+}
+
+#footer {
+	background-color:#666;
+	min-height:60px;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	
 }

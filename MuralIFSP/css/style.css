@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body{
-	background:url(../img/back.jpg);
+	background:url(../img/1.png);
 }
 
 #principal{
@@ -45,7 +45,42 @@ body{
 	background-image:url(../img/papel.jpg);
 }
 
-
+	#emailLogin{
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}
+	
+	#senhaLogin{
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}
+	#emailCad{
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}
+	#senhaCad{
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}
+	#nomeCad{
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}
+	#apelidoCad{
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}
+	#sexoMas{
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}
+	#sexoFem{
+		filter: alpha(opacity=80);
+		opacity: 0.8;
+	}
+	
+	
+	
 p{
 	color:#999;
 }
@@ -101,6 +136,7 @@ p{
 	margin-top:10px;
 	background-image:url(../img/papel2.jpg);
 }
+
 
 .indexSegundo{
 	background-color:#FF6;

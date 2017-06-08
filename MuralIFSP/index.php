@@ -49,16 +49,16 @@
                                   <form action="login.php">
                                     <div class="form-group">
                                       <label for="email">Email:</label>
-                                      <input type="email" class="form-control" id="email" placeholder="Digite seu email" name="email">
+                                      <input type="email" class="form-control" id="emailLogin" placeholder="Digite seu email" name="email">
                                     </div>
                                     
                                     <div class="form-group">
                                       <label for="pwd">Senha:</label>
-                                      <input type="password" class="form-control" id="senha" placeholder="Digite sua Senha" name="senha">
+                                      <input type="password" class="form-control" id="senhaLogin" placeholder="Digite sua Senha" name="senha">
                                     </div>
                                     
                                     <div class="checkbox">
-                                      <label><input type="checkbox" name="lembrar">Lembrar-me</label>
+                                      <label><input type="checkbox" id="lembrar" name="lembrar">Lembrar-me</label>
                                     </div>
                                     
                                     <button type="submit" class="btn btn-default">Entrar</button>
@@ -74,34 +74,31 @@
                                               <form action="cadastro.php">
                                                 <div class="form-group">
                                                   <label for="email">Email:</label>
-                                                  <input type="email" class="form-control" id="email" placeholder="Digite um email" name="email">
+                                                  <input type="email" class="form-control" id="emailCad" placeholder="Digite um email" name="email">
                                                 </div>
                                                 
                                                 <div class="form-group">
                                                   <label for="nome">Nome:</label>
-                                                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" name="nome">
+                                                  <input type="text" class="form-control" id="nomeCad" placeholder="Digite seu nome" name="nome">
                                                 </div>
                                                 
                                                 <div class="form-group">
                                                   <label for="apelido">Apelido</label>
-                                                  <input type="text" class="form-control" id="apelido" placeholder="Digite um apelido" name="nome">
+                                                  <input type="text" class="form-control" id="apelidoCad" placeholder="Digite um apelido" name="nome">
                                                 </div>
                                                 
-                                                <div id="sexo">
-                                                  <p> Sexo </p>
+                                                <label for="sexo">Sexo:</label>                                                
+                                                <div class="radio">
+                                                  <label><input type="radio" id="sexoMas"name="optradio">Masculino</label>
                                                 </div>
                                                 
                                                 <div class="radio">
-                                                  <label><input type="radio" name="optradio">Masculino</label>
-                                                </div>
-                                                
-                                                <div class="radio">
-                                                  <label><input type="radio" name="optradio">Feminino</label>
+                                                  <label><input type="radio" id="sexoFem" name="optradio">Feminino</label>
                                                 </div>
                                                 
                                                 <div class="form-group">
                                                   <label for="senha">Senha:</label>
-                                                  <input type="password" class="form-control" id="senha" placeholder="Digite uma senha" name="senha">
+                                                  <input type="password" class="form-control" id="senhaCad" placeholder="Digite uma senha" name="senha">
                                                 </div>
                                                 
                                                 <button type="submit" class="btn btn-default">Cadastrar-se</button>

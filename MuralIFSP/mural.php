@@ -2,9 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Untitled Document</title>
+    <title>Mural IFSP - prc</title>
     <meta name="viewport" content="width=device-width, initial-scale = 1" />
-	<title>Mural IFSP - prc</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -12,6 +11,7 @@
 </head>
 
 <body>
+		<!--Topnav-->
 		<nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -19,9 +19,10 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="mural.php">Mural</a></li>
+                    <li><a onclick="openNav()"><span class="glyphicon glyphicon-sunglasses"></span>Nova Nota +</a></li>
                     <!--<li><a href="cadastroNota.php">Criar uma Nota</a></li>-->
                 </ul>
+                
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="cadastro.php"><span class="glyphicon glyphicon-user"></span> Cadastrar-se</a></li>
                     <!--<li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
@@ -29,6 +30,44 @@
             </div>
         </nav>
         
+              <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               	<p>Bem-Vindo Galo Cego!</p>
+                  <div id="imgUsu">
+                  		<!--Imagem de login do usuario-->
+                  </div>
+                  
+                  <div id="nomeCategoria">
+					<a href="#" data-toggle="tooltip" data-placement="top" title="Cada categoria tem sua cor específica e uma duração">Categoria:</a>
+                  </div>
+                  
+                  <div id="categoriaSide">
+                  		<p align="justify" class="notaSidenav">
+                    	Acadêmico <br />
+                    	</p>
+                  </div>
+                  
+                  <div id="categoriaSide">
+                  		<p align="justify" class="notaSidenav1">
+                    	Festas <br />
+                    	</p>
+                  </div>
+                  
+                  <div id="categoriaSide">
+                  		<p align="justify" class="notaSidenav2">
+                    	Carona <br />
+                    	</p>
+                  </div>
+                  
+              </div>
+            
+            <!-- Use any element to open the sidenav -->
+           	 
+            
+            
+            <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+	  <div id="main"><!--tudo oq vai ficar a direita do sidenav tem q ficar dentro da main-->
+        <!--Corpo da pagina-->
         <div id="painel">
             <div class="row">
                 <div class="col-md-3">
@@ -85,5 +124,24 @@
             
             
 		</div>
+     </div> <!--Fecha a main do Sidenav-->
 </body>
+
+	<script>
+    function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+	}
+	
+	/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft = "0";
+	} 
+	
+	$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+	});
+    </script>
+
 </html>

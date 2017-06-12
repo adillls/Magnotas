@@ -9,17 +9,20 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="navBar">
             <div class="container-fluid" id="logoMenu">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.php">Mural IFSP</a>
+                    <a class="navbar-brand" href="index.php"><font color="#000000">Mural IFSP</font></a>
                 </div>
+                
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php">Início</a></li>
                     <li><a href="mural.php">Mural</a></li>
                     <!--<li><a href="cadastroNota.php">Criar uma Nota</a></li>-->
                 </ul>
+                
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="cadastro.php"><span class="glyphicon glyphicon-user"></span> Cadastrar-se</a></li>
                     <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -200,29 +203,35 @@ Pellentesque porttitor eu tellus non aliquet. Pellentesque feugiat bibendum nunc
             </div>
             <!-- Espaço--> 
                 
-<footer>  <!--Acertar o footer-->  
-   <div id="footer">
-    <div class="row">
-           <div class="col-md-3">
-            	<button type="button" class="btn btn-link">Sobre</button>    
-           </div>
-           
-           <div class="col-md-3">
-             	<button type="button" class="btn btn-link">Contato</button>        	                 
-           </div>
-           
-           <div class="col-md-3">
-             	<h3>MAG NOTAS</h3>
-				<p>BÃO PA CARAI</p>  	                 
-           </div>
-           
-          <div class="col-md-3">
-             	<button type="button" class="btn btn-link">Login</button>        	                 
-           </div>
-     </div>
- </div> 
-     
-</footer> 
+        <footer class="footer-distributed">
+                    <div class="footer-left">
+                        <h3>MAG<span>Notas</span></h3>
+                        <p class="footer-company-name">MagNotas &copy; 2017</p>
+        
+                        <div class="footer-icons">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-github"></i></a>
+        
+                        </div>
+        
+                    </div>
+        
+                    <div class="footer-right">
+        
+                        <p>Contato</p>
+        
+                        <form action="#" method="post">
+        
+                            <input type="text" name="email" placeholder="Email" />
+                            <textarea name="message" placeholder="Mensagem"></textarea>
+                            <button>Enviar</button>
+        
+                        </form>
+        
+                    </div>
+            </footer>
 
 </body>
 </html>

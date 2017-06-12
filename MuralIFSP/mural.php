@@ -12,13 +12,13 @@
 
 <body>
 		<!--Topnav-->
-		<nav class="navbar navbar-inverse">
+		<nav class="navbar navbar-inverse"  id="navBar">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.php">Mural IFSP</a>
+                    <a class="navbar-brand" href="index.php"><font color="#000000">Mural IFSP</font></a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php">Início</a></li>
                     <li><a onclick="openNav()"><span class="glyphicon glyphicon-sunglasses"></span>Nova Nota +</a></li>
                     <!--<li><a href="cadastroNota.php">Criar uma Nota</a></li>-->
                 </ul>
@@ -32,7 +32,7 @@
         
               <div id="mySidenav" class="sidenav">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-               	<p>Bem-Vindo Galo Cego!</p>
+               	<p>Bem-Vindo Galo Cego!</p><!--Nome do usuario-->
                   <div id="imgUsu">
                   		<!--Imagem de login do usuario-->
                   </div>
@@ -59,12 +59,22 @@
                     	</p>
                   </div>
                   
+                   <div id="categoriaSide">
+                  		<p align="justify" class="notaSidenav3">
+                    	Outros <br />
+                    	</p>
+                  </div>
+                  
+                  <div id="categoriaSide">
+                  		<p align="justify" class="notaSidenavSair">
+                    	<button class="btn btn-default btn-primary">Sair</button>
+                    	</p>
+                  </div>
+                  
+                  
               </div>
             
             <!-- Use any element to open the sidenav -->
-           	 
-            
-            
             <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 	  <div id="main"><!--tudo oq vai ficar a direita do sidenav tem q ficar dentro da main-->
         <!--Corpo da pagina-->
@@ -120,11 +130,42 @@
                     </p>
                 </div>            
             </div>
-            
-            
-            
 		</div>
-     </div> <!--Fecha a main do Sidenav-->
+     </div>  <!--Fecha a main do Sidenav-->
+    
+     
+     <!-- Espaço-->
+            <div class="row">
+            <br /><br />
+            </div>
+            <!-- Espaço--> 
+                
+        <footer class="footer-distributed">
+                    <div class="footer-left">
+                        <h3>MAG<span>Notas</span></h3>
+                        <p class="footer-company-name">MagNotas &copy; 2017</p>
+        
+                        <div class="footer-icons">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+        
+                    <div class="footer-right">
+                        <p>Contato</p>
+        
+                        <form action="#" method="post">
+        
+                            <input type="text" name="email" placeholder="Email" />
+                            <textarea name="message" placeholder="Mensagem"></textarea>
+                            <button>Enviar</button>
+        
+                        </form>
+        
+                    </div>
+            </footer>
 </body>
 
 	<script>

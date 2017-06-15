@@ -41,7 +41,7 @@
 				    <div class="form-group">
 				        <label class="control-label col-xs-2"><p id="desc">Nick</p></label>
 				        <div class="col-xs-5">
-				            <input maxlength=10 type="text" class="form-control" min="1"name="nick" placeholder="Digite seu nick para acesso">
+				            <input maxlength=10 type="text" class="form-control" min="1"name="apelido" placeholder="Digite seu nick para acesso">
 							<input type="hidden" name="cod"/>
 				        </div>
 				    </div>

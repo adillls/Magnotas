@@ -48,6 +48,36 @@
 	   }
 	   return preg_replace('/\x13\x00*$/', '', $plain_text);
 	}
+	
+	
+	function calculaDataExpiracao($categoria){
+		$data_atual = date_create();
+		$dias = 0;
+		$horas = 0;
+		$minutos = 0;
+		
+		if($categoria == 0){
+			$minutos = 1;
+		}
+		else if($categoria == 1){
+			$dias = 7;
+		}
+		else if($categoria == 2){
+			$dias = 15;
+		}
+		else if($categoria == 3){
+			$horas = 12;
+		}
+		
+		return strftime('%Y-%m-%d %H:%M:%S',(mktime(	
+						date_format($data_atual,"H")+$horas,
+						date_format($data_atual,"i")+$minutos,
+						date_format($data_atual,"s"),
+						date_format($data_atual,"m"),
+						date_format($data_atual,"d")+$dias,
+						date_format($data_atual,"Y"))));
+		
+	}
 ?>
 
 </body>

@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body{
-	background:url(../img/1.png);
+	background:url(../img/back.jpg);
 }
 
 #principal{
@@ -93,7 +93,7 @@ p{
 }
 
 #painel{
-	background-color:#6F3;
+	background-image:url(../img/mural.jpg);
 	min-height:300px;
 	width:90%;
 	margin-left: auto;
@@ -221,7 +221,7 @@ p{
 	margin-right: auto;	
 	text-align:center;
 	margin-top:10px;
-	background-image:url(../img/papel.jpg);
+	background-image:url(../img/notav.jpg);
 }
 
 #indexLogin2{
@@ -231,7 +231,7 @@ p{
 	margin-right: auto;	
 	text-align:center;
 	margin-top:10px;
-	background-image:url(../img/papel2.jpg);
+	background-image:url(../img/notaa.jpg);
 }
 
 
